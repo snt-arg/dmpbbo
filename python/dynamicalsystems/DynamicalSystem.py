@@ -47,7 +47,7 @@ class DynamicalSystem:
         
         self.name_ = name
         
-        self.integration_method_=  "EULER"
+        self.integration_method_=  "RUNGE_KUTTA"
         
     def differentialEquation(self,x):
         raise NotImplementedError('subclasses must override updateDistribution()!')
